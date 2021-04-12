@@ -1,7 +1,7 @@
 var num1 = parseInt(prompt("Inserisci il primo numero"));
 var num2 = parseInt(prompt("Inserisci il secondo numero"));
 
-if (Number.isNaN(num1) || (Number.isNaN(num2)) {
+if (Number.isNaN(num1) || (Number.isNaN(num2)){ 
     console.log("Uno o entrambe i numeri non sono validi.");
 }
 
@@ -16,7 +16,7 @@ else {
         numeroMaggiore = num2
     }
 
-    if (typeof numroMaggiore !== "number") {
+    if (typeof numeroMaggiore !== "number") {
         console.log("Il numero maggiore è" + numeroMaggiore)
     }
 
