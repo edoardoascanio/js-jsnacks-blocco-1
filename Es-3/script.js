@@ -4,7 +4,7 @@ var numeriInseriti = []
 for (var i = 0; i < 10; i++) {
 
     var numero = parseInt(prompt("Inserisci numero. Ne mancano" + (10 - i)));
-
+    
     somma += numero
 
     numeriInseriti.push(numero)
